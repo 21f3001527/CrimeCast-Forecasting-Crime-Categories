@@ -31,9 +31,7 @@ CrimeCast/
 │   └── sample_submission.csv  # Sample submission format
 ├── notebooks/
 │   └── crime_prediction.ipynb # Main analysis notebook
-├── models/                    # Saved model files
-├── results/                   # Predictions and visualizations
-├── requirements.txt           # Python dependencies
+
 └── README.md                 # Project documentation
 ```
 
@@ -199,16 +197,8 @@ submission.to_csv('submission.csv', index=False)
 
 ```
 CrimeCast/
-├── data/                      # Dataset files
-├── notebooks/                 # Jupyter notebooks
-├── src/                       # Source code modules
-│   ├── data_preprocessing.py  # Data cleaning functions
-│   ├── feature_engineering.py # Feature creation
-│   ├── model_training.py      # Model training scripts
-│   └── utils.py              # Utility functions
-├── models/                    # Saved model files
-├── results/                   # Output files and visualizations
-├── requirements.txt           # Python dependencies
+├── data/                     # Dataset files
+├── crime_prediction.py       # Jupyter notebooks
 └── README.md                 # Project documentation
 ```
 
@@ -244,7 +234,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Competition organizers for providing the comprehensive crime dataset
 - LAPD for making crime data publicly available
 - Open source community for excellent machine learning libraries
 - Fellow data scientists for insights and collaboration
