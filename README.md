@@ -84,29 +84,12 @@ CrimeCast/
 
 ### Quick Start
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/21f3001527/crimecast-prediction.git
-   cd crimecast-prediction
-   ```
-
-2. **Create Virtual Environment** (Recommended)
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Launch Jupyter Notebook**
+1. **Launch Jupyter Notebook**
    ```bash
    jupyter notebook
    ```
 
-5. **Run the Analysis**
+2. **Run the Analysis**
    - Open `notebooks/crime_prediction.ipynb`
    - Execute all cells to reproduce the analysis
 
