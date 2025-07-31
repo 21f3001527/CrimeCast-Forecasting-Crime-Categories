@@ -202,9 +202,6 @@ CrimeCast/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
@@ -228,7 +225,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Crime Data Analysis Best Practices](https://example.com)
 
 ---
-
-**⚡ Ready to dive into crime prediction?** Clone this repository and start exploring the fascinating world of predictive policing and public safety analytics!
-
-**🎯 Challenge yourself:** Can you achieve higher accuracy than the baseline models? Fork this project and show us your skills!
