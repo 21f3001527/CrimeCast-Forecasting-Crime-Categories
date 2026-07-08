@@ -56,14 +56,11 @@ The dataset provides a comprehensive snapshot of criminal activities within the 
 ### 📁 Data Files Structure
 
 ```
-CrimeCast/
-├── data/
-│   ├── train.csv              # Training dataset with target variable
-│   ├── test.csv               # Test dataset for predictions
-│   └── sample_submission.csv  # Sample submission format
-├── notebooks/
-│   └── crime_prediction.ipynb # Main analysis notebook
-└── README.md                  # Project documentation
+CrimeCast-Forecasting-Crime-Categories/
+├── README.md                       # Project documentation
+├── crime_prediction.ipynb          # Main analysis notebook
+├── Screenshot 2025-06-16 094229.png # Project visual/output
+└── Screenshot 2025-06-16 094436.png # Project visual/output
 ```
 
 ### 🏷️ Dataset Features
@@ -130,7 +127,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyter plotly
 jupyter notebook
 
 # 2. Open the analysis notebook
-# notebooks/crime_prediction.ipynb
+# crime_prediction.ipynb
 
 # 3. Execute all cells to reproduce the analysis
 ```
@@ -212,6 +209,16 @@ submission.to_csv('submission.csv', index=False)
 
 ---
 
+## 🖼️ Sample Outputs
+
+<div align="center">
+
+<img src="Screenshot 2025-06-16 094229.png" alt="CrimeCast output visual 1" width="45%">  <img src="Screenshot 2025-06-16 094436.png" alt="CrimeCast output visual 2" width="45%">
+
+</div>
+
+---
+
 ## 🏆 Model Performance
 
 <div align="center">
@@ -245,10 +252,11 @@ AdaBoost       █████████████████████�
 ## 📁 File Structure
 
 ```
-CrimeCast/
-├── data/                     # Dataset files
-├── crime_prediction.py       # Jupyter notebooks
-└── README.md                 # Project documentation
+CrimeCast-Forecasting-Crime-Categories/
+├── README.md                       # Project documentation
+├── crime_prediction.ipynb          # Main analysis notebook
+├── Screenshot 2025-06-16 094229.png # Project visual/output
+└── Screenshot 2025-06-16 094436.png # Project visual/output
 ```
 
 ---
