@@ -53,15 +53,6 @@ The dataset provides a comprehensive snapshot of criminal activities within the 
 | **Evaluation Metric** | Accuracy Score |
 | **Target Variable** | `Crime_Category` |
 
-### 📁 Data Files Structure
-
-```
-CrimeCast-Forecasting-Crime-Categories/
-├── README.md                       # Project documentation
-├── crime_prediction.ipynb          # Main analysis notebook
-├── Screenshot 2025-06-16 094229.png # Project visual/output
-└── Screenshot 2025-06-16 094436.png # Project visual/output
-```
 
 ### 🏷️ Dataset Features
 
