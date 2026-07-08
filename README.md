@@ -53,6 +53,15 @@ The dataset provides a comprehensive snapshot of criminal activities within the 
 | **Evaluation Metric** | Accuracy Score |
 | **Target Variable** | `Crime_Category` |
 
+### 📁 Data Files Structure
+
+```
+CrimeCast-Forecasting-Crime-Categories/
+├── README.md                       # Project documentation
+├── crime_prediction.ipynb          # Main analysis notebook
+├── Screenshot 2025-06-16 094229.png # Project visual/output
+└── Screenshot 2025-06-16 094436.png # Project visual/output
+```
 
 ### 🏷️ Dataset Features
 
@@ -283,7 +292,7 @@ Student ID: `21f3001527`
 Institution: Indian Institute of Technology Madras
 
 [![GitHub](https://img.shields.io/badge/GitHub-@21f3001527-181717?style=flat-square&logo=github)](https://github.com/21f3001527)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rajeev%20Kumar-0A66C2?style=flat-square&logo=linkedin)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rajeev%20Kumar-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/rajeev245/)
 [![Email](https://img.shields.io/badge/Email-21f3001527%40ds.study.iitm.ac.in-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:21f3001527@ds.study.iitm.ac.in)
 
 </div>
