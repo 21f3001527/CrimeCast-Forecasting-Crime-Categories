@@ -22,20 +22,11 @@
 
 **CrimeCast** is a comprehensive machine learning project focused on predicting crime categories using historical crime incident data. This project analyzes location, timing, victim demographics, and incident characteristics to build accurate predictive models for law enforcement and public safety applications.
 
-```mermaid
-flowchart LR
-    A[📋 Raw Crime Data] --> B[🧹 Preprocessing]
-    B --> C[⚙️ Feature Engineering]
-    C --> D[🤖 Model Training]
-    D --> E[📊 Evaluation]
-    E --> F[🎯 Crime Category Prediction]
-
-    style A fill:#e3f2fd,stroke:#1565c0,color:#000
-    style B fill:#fff3e0,stroke:#e65100,color:#000
-    style C fill:#f3e5f5,stroke:#6a1b9a,color:#000
-    style D fill:#e8f5e9,stroke:#2e7d32,color:#000
-    style E fill:#fce4ec,stroke:#ad1457,color:#000
-    style F fill:#e0f2f1,stroke:#00695c,color:#000
+```
+ ┌────────────────┐   ┌───────────────┐   ┌─────────────────────┐   ┌────────────────┐   ┌────────────┐   ┌─────────────────────────┐
+ │ 📋 Raw Crime   │──▶│ 🧹 Preprocess │──▶│ ⚙️ Feature           │──▶│ 🤖 Model       │──▶│ 📊 Eval    │──▶│ 🎯 Crime Category       │
+ │    Data        │   │    -ing       │   │    Engineering       │   │    Training     │   │            │   │    Prediction           │
+ └────────────────┘   └───────────────┘   └─────────────────────┘   └────────────────┘   └────────────┘   └─────────────────────────┘
 ```
 
 ---
@@ -148,44 +139,40 @@ jupyter notebook
 
 ## 📋 Project Workflow
 
-```mermaid
-flowchart TD
-    subgraph S1["1️⃣ Data Exploration & Analysis"]
-        A1[Dataset overview & stats]
-        A2[Missing value analysis]
-        A3[Feature distributions]
-        A4[Temporal & geo patterns]
-    end
-
-    subgraph S2["2️⃣ Data Preprocessing"]
-        B1[Handle missing values]
-        B2[Feature engineering]
-        B3[Categorical encoding]
-        B4[Scaling & normalization]
-    end
-
-    subgraph S3["3️⃣ Feature Engineering"]
-        C1[Time-based features]
-        C2[Geographic clustering]
-        C3[Victim demographics]
-        C4[Location categorization]
-    end
-
-    subgraph S4["4️⃣ Model Development"]
-        D1[Algorithm comparison]
-        D2[Hyperparameter tuning]
-        D3[Cross-validation]
-        D4[Model selection]
-    end
-
-    subgraph S5["5️⃣ Model Evaluation"]
-        E1[Accuracy assessment]
-        E2[Confusion matrix]
-        E3[Feature importance]
-        E4[Performance visualization]
-    end
-
-    S1 --> S2 --> S3 --> S4 --> S5
+```
+1️⃣ Data Exploration & Analysis
+   ├─ Dataset overview & stats
+   ├─ Missing value analysis
+   ├─ Feature distributions
+   └─ Temporal & geo patterns
+          │
+          ▼
+2️⃣ Data Preprocessing
+   ├─ Handle missing values
+   ├─ Feature engineering
+   ├─ Categorical encoding
+   └─ Scaling & normalization
+          │
+          ▼
+3️⃣ Feature Engineering
+   ├─ Time-based features
+   ├─ Geographic clustering
+   ├─ Victim demographics
+   └─ Location categorization
+          │
+          ▼
+4️⃣ Model Development
+   ├─ Algorithm comparison
+   ├─ Hyperparameter tuning
+   ├─ Cross-validation
+   └─ Model selection
+          │
+          ▼
+5️⃣ Model Evaluation
+   ├─ Accuracy assessment
+   ├─ Confusion matrix
+   ├─ Feature importance
+   └─ Performance visualization
 ```
 
 ---
@@ -240,13 +227,15 @@ submission.to_csv('submission.csv', index=False)
 
 ### 📈 Accuracy Comparison
 
-```mermaid
-%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2e7d32, #1565c0, #ad1457, #e65100"}}}}%%
-xychart-beta
-    title "Model Accuracy Comparison (%)"
-    x-axis ["RandomForest", "SVC", "Decision Tree", "AdaBoost"]
-    y-axis "Accuracy (%)" 0 --> 100
-    bar [95.0, 94.7, 94.0, 80.7]
+```
+Model Accuracy Comparison (%)
+
+RandomForest   ████████████████████████████████████████████████ 95.0%
+SVC            ███████████████████████████████████████████████  94.7%
+Decision Tree  ███████████████████████████████████████████████  94.0%
+AdaBoost       ██████████████████████████████████████            80.7%
+
+               0%        25%        50%        75%       100%
 ```
 
 > **Key Insight:** RandomForest achieved the highest accuracy of **95.0%**, making it the preferred model for crime category prediction. All top 3 models achieved **over 94% accuracy**, demonstrating strong predictive capability across ensemble, kernel-based, and tree-based approaches.
